@@ -5,10 +5,10 @@ ez_setup.py
 setup.cfg
 setup.py
 netCodePackage/__init__.py
-netCodePackage.egg-info/PKG-INFO
-netCodePackage.egg-info/SOURCES.txt
-netCodePackage.egg-info/dependency_links.txt
-netCodePackage.egg-info/top_level.txt
+netCodeProject.egg-info/PKG-INFO
+netCodeProject.egg-info/SOURCES.txt
+netCodeProject.egg-info/dependency_links.txt
+netCodeProject.egg-info/top_level.txt
 tests/__init__.py
 tests/netCodeUnit.py
 tests/test_data_as_overview.json

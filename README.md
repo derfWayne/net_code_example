@@ -60,29 +60,50 @@ running bdist_egg
 
 running egg_info
 
-writing netCodePackage.egg-info/PKG-INFO
+writing netCodeProject.egg-info/PKG-INFO
 
-writing dependency_links to netCodePackage.egg-info/dependency_links.txt
+writing dependency_links to netCodeProject.egg-info/dependency_links.txt
 
-writing top-level names to netCodePackage.egg-info/top_level.txt
+writing top-level names to netCodeProject.egg-info/top_level.txt
 
-file netCodePackage.py (for module netCodePackage) not found
-
-file netCodeApi.py (for module netCodeApi) not found
-
-file netCodeDataTypes.py (for module netCodeDataTypes) not found
-
-file tests.py (for module tests) not found
-
-reading manifest file 'netCodePackage.egg-info/SOURCES.txt'
+reading manifest file 'netCodeProject.egg-info/SOURCES.txt'
 
 reading manifest template 'MANIFEST.in'
 
-warning: no files found matching '*' under directory 'tests'
+warning: no files found matching '*.py' under directory '*.txt'
 
-writing manifest file 'netCodePackage.egg-info/SOURCES.txt'
+writing manifest file 'netCodeProject.egg-info/SOURCES.txt'
 
 installing library code to build/bdist.macosx-10.7-x86_64/egg
+
+running install_lib
+
+running build_py
+
+creating build/bdist.macosx-10.7-x86_64/egg
+
+creating build/bdist.macosx-10.7-x86_64/egg/netCodePackage
+
+copying build/lib/netCodePackage/__init__.py -> build/bdist.macosx-10.7-x86_64/egg/netCodePackage
+
+creating build/bdist.macosx-10.7-x86_64/egg/tests
+
+copying build/lib/tests/__init__.py -> build/bdist.macosx-10.7-x86_64/egg/tests
+
+copying build/lib/tests/netCodeUnit.py -> build/bdist.macosx-10.7-x86_64/egg/tests
+
+byte-compiling build/bdist.macosx-10.7-x86_64/egg/netCodePackage/__init__.py to __init__.cpython-36.pyc
+
+**IMPORTING PACKAGE**
+/usr/local/bin/anaconda_3/bin/python
+ => /usr/local/bin/anaconda_3/bin/python
+Python 3.6.0 |Anaconda 4.3.1 (x86_64)| (default, Dec 23 2016, 13:19:00)
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import netCodePackage
+>>> from netCodePackage import netCodeApi
+>>> from netCodePackage import netCodeDataTypes
+>>>
 
 
 

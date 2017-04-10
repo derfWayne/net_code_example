@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/netCodeProject/netCodePackage')
+sys.path.insert(0, '/project/netCodeProject/netCodePackage')
 
 try:
     from setuptools import setup
@@ -10,7 +10,7 @@ except ImportError:
 
 import netCodePackage
 
-setup(name='netCodePackage',
+setup(name='netCodeProject',
       version=netCodePackage.__version__,
       description=netCodePackage.__doc__,
       author=netCodePackage.__author__,
@@ -18,6 +18,7 @@ setup(name='netCodePackage',
       url='https://github.com/derfWayne/net_code_example.git',
       license=netCodePackage.__license__,
       platforms=['all'],
+      packages={'netCodePackage': ['netCodeApi']},
       classifiers=[
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
@@ -36,6 +37,5 @@ setup(name='netCodePackage',
           'Programming Language :: Python :: Implementation :: PyPy',
           'Topic :: Text Processing :: Markup :: XML',
       ],
-      py_modules=['netCodePackage', 'netCodeApi','netCodeDataTypes', 'tests'],
       tests_require=['unittest>=1.0', 'flask'],
       )
