@@ -1,0 +1,4 @@
+xmltodict=0.10.2
+flask=0.12
+configparser=3.5
+jsonschema=2.6.0

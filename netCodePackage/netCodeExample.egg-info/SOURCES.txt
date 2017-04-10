@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+ez_setup.py
+setup.cfg
+setup.py
+netCodeApi/netCodeApi.py
+netCodeDataTypes/netCodeDataTypes.py
+tests/netCodeUnit.py
+netCodeExample.egg-info/PKG-INFO
+netCodeExample.egg-info/SOURCES.txt
+netCodeExample.egg-info/dependency_links.txt
+netCodeExample.egg-info/top_level.txt
