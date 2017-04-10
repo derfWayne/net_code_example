@@ -8,3 +8,16 @@ netCodePackage.egg-info/PKG-INFO
 netCodePackage.egg-info/SOURCES.txt
 netCodePackage.egg-info/dependency_links.txt
 netCodePackage.egg-info/top_level.txt
+tests/__init__.py
+tests/netCodeUnit.py
+tests/test_data_as_overview.json
+tests/test_data_as_overview.xml
+tests/test_data_as_overview.yaml
+tests/test_data_geoloc.json
+tests/test_data_geoloc.xml
+tests/test_data_geoloc.yaml
+tests/test_data_network_info.json
+tests/test_data_network_info.xml
+tests/test_data_network_info.yaml
+tests/tests.iml
+tests/__pycache__/netCodeUnit.cpython-36.pyc
