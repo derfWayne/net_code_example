@@ -95,14 +95,23 @@ copying build/lib/tests/netCodeUnit.py -> build/bdist.macosx-10.7-x86_64/egg/tes
 byte-compiling build/bdist.macosx-10.7-x86_64/egg/netCodePackage/__init__.py to __init__.cpython-36.pyc
 
 **IMPORTING PACKAGE**
+
 /usr/local/bin/anaconda_3/bin/python
+
  => /usr/local/bin/anaconda_3/bin/python
+ 
 Python 3.6.0 |Anaconda 4.3.1 (x86_64)| (default, Dec 23 2016, 13:19:00)
+
 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+
 Type "help", "copyright", "credits" or "license" for more information.
+
 >>> import netCodePackage
+
 >>> from netCodePackage import netCodeApi
+
 >>> from netCodePackage import netCodeDataTypes
+
 >>>
 
 
