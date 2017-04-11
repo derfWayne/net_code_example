@@ -1,4 +1,0 @@
-/projects/netCodeProject/netCodePackage
-/projects/netCodeProject/netCodePackage/netCodeApi
-/projects/netCodeProject/netCodePackage/netCodeDataTypes
-/projects/netCodeProject/tests
